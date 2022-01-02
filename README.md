@@ -28,13 +28,13 @@ The county votes are as follows:
 
 ![County_Votes](County_Votes.png)
 
-To generate this county list with its respective number of votes and the percentage of total votes we first had to create a county list and county votes dictionary in the Python script:
+To generate this county list with its respective number of votes and the percentage of total votes, we first had to create a county list and county votes dictionary in the Python script:
 ```
 county_list = []
 county_dictionary = {}
 ```
 
-A **for loop** was also used to get the county from the county dictionary.
+A **for loop** was also used to get each county result from the county dictionary.
 ```    
     for county_name in county_dictionary:
 
@@ -87,4 +87,4 @@ For example, a congressional race in California can use Python to write algorith
 
 Another example is we can consider applying python algorithms to other Government levels such as the federal government, the state governments, and local governments. For this we want to import the appropriate data file and update candidate lists and candidate dictionaries so Python can analyze the data as needed. 
 
-Lastly, Python is a powerful tool that allow programmers access, process, manipulate and store large data files. Organizations in many industries can take advantage of it to simplify and automate processes of repetitive calculations.
+Lastly, Python is a powerful tool that allows programmers access, process, manipulate and store large data files. Organizations in many industries can take advantage of it to simplify and automate processes of repetitive calculations.
