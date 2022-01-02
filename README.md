@@ -20,7 +20,7 @@ The software used to write, edit, save and execute scripts for this analysis are
 ### Outcomes
 * How many votes were cast in this congressional election?
 
-The total votes in this congressional election was/were 369,711.  
+The total votes in this congressional election is 369,711.  
 
 * Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 
@@ -72,9 +72,19 @@ Similar to our county list, we had to add a candidate list and a candidate dicti
 
 * Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 
-Candidate Diana DeGette won the election with a total count of 272,892 votes and a winning percentage of 73.8% for this/the US congressional voting district in Colorado as displayed below:  
+Candidate Diana DeGette won the election with a total count of 272,892 votes and a winning percentage of 73.8% for this US congressional voting district in Colorado as displayed below:  
 
 ![Winner_candidate](Winner_candidate.png)
 
 ## Election-Audit Summary
-Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+In summary, the election-audit successfully analyzed the election results for a US congressional voting district in Colorado using Python and Visual Studio Code. In general, Python code is easy to write, it can perform complex calculations quickly and can handle large data files. Visual Studio Code, or VS Code, allows you to write, edit, save and execute scripts. 
+
+Congressional elections determine who represents your state in Congress and occur every two years. These midterm elections occur halfway between presidential elections and use the popular vote to choose winners.
+
+The election commission can highly benefit from using software like Python and Visual Studio Code to automate the process of reporting results, especially when they must be run every two years. The python script provided in this election-audit analysis can be easily used with a few adjustments for any election across the United States. 
+
+For example, a congressional race in California can use Python to write algorithms that will assist the confirmation and analysis of election results. Additionally, Python can be used to report trends, forecasts, progressions and analysis of local political campaigns.
+
+Another example is we can consider applying python algorithms to other Government levels such as the federal government, the state governments, and local governments. For this we want to import the appropriate data file and update candidate lists and candidate dictionaries so Python can analyze the data as needed. 
+
+Lastly, Python is a powerful tool that allow programmers access, process, manipulate and store large data files. Organizations in many industries can take advantage of it to simplify and automate processes of repetitive calculations.
