@@ -81,10 +81,10 @@ In summary, the election-audit successfully analyzed the election results for a 
 
 Congressional elections determine who represents your state in Congress and occur every two years. These midterm elections occur halfway between presidential elections and use the popular vote to choose winners.
 
-The election commission can highly benefit from using software like Python and Visual Studio Code to automate the process of reporting results, especially when they must be run every two years. The python script provided in this election-audit analysis can be easily used with a few adjustments for any election across the United States. 
+The election commission can highly benefit from using software like Python and Visual Studio Code to automate the process of reporting results, especially when they must be run every two years. The Python script provided in this election-audit analysis can be easily used with a few adjustments for any election across the United States. 
 
 For example, a congressional race in California can use Python to write algorithms that will assist the confirmation and analysis of election results. Additionally, Python can be used to report trends, forecasts, progressions and analysis of local political campaigns.
 
-Another example is we can consider applying python algorithms to other Government levels such as the federal government, the state governments, and local governments. For this we want to import the appropriate data file and update candidate lists and candidate dictionaries so Python can analyze the data as needed. 
+Another example is we can consider applying Python algorithms to other Government levels such as the federal government, the state governments, and local governments. For this we want to import the appropriate data file and update or initialize additional lists and dictionaries in our script so Python can analyze the data as needed. 
 
-Lastly, Python is a powerful tool that allows programmers access, process, manipulate and store large data files. Organizations in many industries can take advantage of it to simplify and automate processes of repetitive calculations.
+Lastly, Python is a powerful tool that allows programmers access, process, manipulate and store large data files. Organizations in many industries can take advantage of it to simplify and automate processes of repetitive calculations to boost efficiency.
