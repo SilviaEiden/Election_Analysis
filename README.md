@@ -3,7 +3,7 @@
 ## Overview of Election-Audit
 
 ### Purpose
-The purpose of this analysis is to assist Tom, a Board of Elections employee, with an election-audit of the tabulated results for US congressional voting district in Colorado. His manager, Seth, is asking to automate the process using Python and report the results to a text file. After all votes are counted, we need to generate a vote count report to certify this US congressional race.
+The purpose of this analysis is to assist Tom, a Board of Elections employee, with an election-audit of the tabulated results for a US congressional voting district in Colorado. His manager, Seth, is asking to automate the process using Python and report the results to a text file. After all votes are counted, we need to generate a vote count report to certify this US congressional race.
 
 ## Election-Audit Results
 
@@ -26,7 +26,7 @@ The total votes in this congressional election was/were 369,711.
 
 The county votes are as follows:
 
-[County_Votes](County_Votes.png)
+![County_Votes](County_Votes.png)
 
 To generate this county list with its respective number of votes and the percentage of total votes we first had to create a county list and county votes dictionary in the Python script:
 ```
@@ -56,7 +56,7 @@ For this election, the largest county turnout was Denver with a total count of 3
 
 The candidate votes are as follows:
 
-[Candidates](Candidates.png)
+![Candidates](Candidates.png)
 
 Similar to our county list, we had to add a candidate list and a candidate dictionary to the Python script. Once that is initialized, we include a **conditional statement** also called **decision-making statement** with a **membership operator** to be able to record all candidates in a list with their respective votes. The code is as follows:
 
@@ -74,7 +74,7 @@ Similar to our county list, we had to add a candidate list and a candidate dicti
 
 Candidate Diana DeGette won the election with a total count of 272,892 votes and a winning percentage of 73.8% for this/the US congressional voting district in Colorado as displayed below:  
 
-[Winner_candidate](Winner_candidate.png)
+![Winner_candidate](Winner_candidate.png)
 
 ## Election-Audit Summary
 Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
